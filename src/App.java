@@ -6,6 +6,7 @@ public class App {
 		System.out.println("Hello: World");
 		Interpreter interpreter = new Interpreter();
 	    String text = "";
+
 	
 	    while(!text.equalsIgnoreCase("exit")){
 	    	System.out.println(">> ");
